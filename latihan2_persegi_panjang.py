@@ -4,7 +4,7 @@ lebar = float(input("masukan lebar   : "))
 luas = panjang * lebar
 keliling = 2 * (panjang + lebar)
 
-print(f"Luas : {luas} m2, Keliling : {kelling} m")
+print(f"Luas : {luas} m2, Keliling : {keliling} m")
 
 """
 Trace Table (Contoh Input: panjang = 8, lebar = 5):
