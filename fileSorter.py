@@ -4,7 +4,7 @@ import shutil
 origin = './origin'
 target = './target'
 
-if not os.path.exist(target):
+if not os.path.exists(target):
     os.makedirs(target)
 
 ext_photo = ['.jpg', '.jpeg']
