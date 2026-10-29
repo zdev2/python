@@ -10,7 +10,7 @@ while kode_studio != 0:
     kode_hari = int(input("Masukkan kode hari (1=Weekday, 2=Weekend): "))
     jumlah_tiket = int(input("Masukkan Jumlah tiket: "))
 
-    if kode_studio == 1 or kode_studio == 2) and kode_hari == 1 or kode_hari == 2) and jumlah_tiket >= 1:
+    if (kode_studio == 1 or kode_studio == 2) and (kode_hari == 1 or kode_hari == 2) and jumlah_tiket >= 1:
 
         if kode_studio == 1:
             if kode_hari == 1:
@@ -35,7 +35,7 @@ while kode_studio != 0:
     else:
         print("Input tidak valid\n")
 
-    kode_studio int(input("Masaukkan kode studio (1=Reguler. 2=Premiere, 0=Tutup): "))
+    kode_studio = int(input("Masaukkan kode studio (1=Reguler. 2=Premiere, 0=Tutup): "))
 
 print("\n=== REKAP PENJUALAN ===")
 print(f"Total Transaksi Valid : {no_transaksi}")
